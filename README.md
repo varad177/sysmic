@@ -25,12 +25,15 @@ Ensure you have the following installed on your system:
 
 
 2. **Enter in folder**
-   cd sysmic
+    ```bash
+    cd sysmic
 
  
 3. **Install All Dependencies** 
-   npm install
+    ```bash
+    npm install
 
 
 1. **Start The Project**
-   npm start
+    ```bash
+    npm start
