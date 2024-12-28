@@ -21,10 +21,13 @@ Ensure you have the following installed on your system:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/varad177/syspree.git
+   git clone https://github.com/varad177/sysmic.git
 
-cd <project-folder>
+  ```bash
+   cd sysmic
 
-npm install
+  ```bash
+   npm install
 
-npm start
+  ```bash
+   npm start
