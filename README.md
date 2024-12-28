@@ -23,11 +23,14 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/varad177/sysmic.git
 
-  ```bash
+
+2. **Enter in folder**
    cd sysmic
 
-  ```bash
+ 
+3. **Install All Dependencies** 
    npm install
 
-  ```bash
+
+1. **Start The Project**
    npm start
