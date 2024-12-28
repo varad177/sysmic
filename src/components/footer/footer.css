@@ -1,0 +1,288 @@
+footer {
+  min-height: 70vh;
+  height: auto;
+  width: 100%;
+  background-color: #15286efe;
+
+  color: #bdbfc5;
+}
+.footerontent {
+  width: 100%;
+  height: 100%;
+  padding: 9vh 5vw;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+.topFooter {
+  height: 80%;
+  width: 100%;
+
+  border-bottom: 1px solid #2d428e;
+}
+
+.topLeft {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  padding-right: 20px;
+  flex-direction: column;
+  gap: 6vh;
+  border-right: 1px solid #2d428e;
+}
+.footerlogo {
+  width: 50%;
+}
+
+.footerlogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.footerIcons {
+  display: flex;
+  gap: 2vw;
+}
+
+.bottomFooter {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6vw;
+}
+
+.topFooter {
+  display: flex;
+}
+
+.topRight {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+
+}
+
+.footerPara {
+  font-size: 1vw;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.footerIcons i {
+  font-size: 1.5vw;
+  color: white;
+}
+
+.quickLinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.quickLinks ul li {
+  list-style: none;
+  font-size: 1vw;
+
+  cursor: pointer;
+}
+
+#quick_links_head {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.footerBottomLeft p {
+  font-size: 1vw;
+}
+
+.footerBottonRight {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+
+.footerBottonRight p {
+  font-size: 1vw;
+}
+
+@media (max-width: 1024px) {
+  .footerPara {
+    font-size: 1.2vw;
+  }
+
+  .quickLinks ul li {
+    font-size: 1.3vw;
+  }
+  .footerBottomLeft p {
+    font-size: 1.3vw;
+  }
+  .footerBottonRight p {
+    font-size: 1.3vw;
+  }
+
+  .footerIcons i {
+    font-size: 2vw;
+  }
+  #quick_links_head {
+    font-size: 1.7vw;
+  }
+}
+@media (max-width: 768px) {
+  .footerontent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerlogo {
+    width: 45%;
+}
+  .topLeft{
+    width: 100%;
+    gap:3vh;
+    border-right: none !important;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid#2d428e;
+
+  }
+  .topRight{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .footerlogo img {
+    width: 60%;
+    height: 100%;
+    object-fit: fill;
+}
+  .footerPara {
+    font-size: 1.4vw;
+  }
+
+  .quickLinks ul li {
+    font-size: 1.5vw;
+  }
+  .footerBottomLeft p {
+    font-size: 1.5vw;
+  }
+  .footerBottonRight p {
+    font-size: 1.5vw;
+  }
+
+  .footerIcons i {
+    font-size: 2.4vw;
+  }
+
+  #quick_links_head {
+    font-size: 1.9vw;
+  }
+
+ 
+}
+
+@media (max-width: 425px) {
+  .footerontent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .topLeft {
+    width: 95%;
+  }
+
+  .footerPara {
+    font-size: 2vw;
+  }
+  .footerIcons i {
+    font-size: 3.4vw;
+  }
+  .topRight {
+    /* margin: 0 0 0 5vw; */
+    margin: 0;
+    width: 100%;
+  }
+  .quickLinks ul {
+    align-items: center;
+  }
+  #quick_links_head {
+    font-size: 2.9vw;
+  }
+
+  .quickLinks ul li {
+    font-size: 2.5vw;
+  }
+
+  .footerBottomLeft p {
+    font-size: 2vw;
+  }
+
+  .footerBottonRight p {
+    font-size: 2vw;
+  }
+
+  .quickLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #2d428e;
+
+  }
+
+  .topRight {
+    /* margin: 0 0 0 5vw; */
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .quickLinks ul{
+    padding: 0;
+  }
+  #quick_links_head{
+    font-size: 3.9vw;
+
+  } 
+
+
+}
+
+
+@media (max-width: 400px) {
+  
+
+  .quickLinks ul li {
+    font-size: 1.7vw;
+  }
+  .footerBottomLeft p {
+    font-size: 3.7vw;
+  }
+  .footerBottonRight p {
+    font-size: 3.7vw;
+  }
+
+  .footerIcons i {
+    font-size: 4.6vw;
+}
+
+#quick_links_head {
+  font-size: 5vw;
+}
+
+  .footerPara {
+    font-size: 3.5vw;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 4vw;
+}
+
+.quickLinks ul li {
+  font-size: 3.7vw;
+}
+
+.bottomFooter{
+  flex-direction: column;
+
+}
+
+}
+

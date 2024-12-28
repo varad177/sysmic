@@ -1,0 +1,292 @@
+nav {
+  height: 20vh;
+  /* width: 100%; */
+  background-color: #13235b;
+  padding: 1vh 4.5vw;
+}
+
+#hancontact{
+  flex-direction: column;
+}
+
+.ham {
+  color: white;
+  display: none;
+}
+
+ul li {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #233369;
+}
+.contacts {
+  color: white;
+  display: none;
+}
+.navTop {
+  height: 46%;
+}
+.navBottom {
+  height: 54%;
+}
+
+.navTopLeft {
+  display: flex;
+  gap: 30px;
+}
+
+.navTopLeft i {
+  font-size: 4vh;
+  color: #ffffff;
+}
+
+.navTopRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.media {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.mediaIcon {
+  padding: 14px;
+  background-color: #3b4877;
+  border-radius: 4px;
+}
+
+.media i {
+  color: #e9b605;
+  margin: 4px;
+
+  font-size: 3.5vh;
+}
+
+.infoName {
+  margin: 0;
+  color: #9ba0b0;
+  font-size: 1vw;
+}
+.MainInfo {
+  margin: 0;
+  color: #caa010;
+  font-size: 1.2vw;
+}
+
+.callIcon {
+  font-size: 3.5vh;
+  color: #e9b605;
+}
+
+.mediaIcon2 {
+  background-color: #3b4877;
+  padding: 16px 14px 12px 14px;
+  border-radius: 4px;
+}
+.mediaIcon2  i {
+  font-size: 3.5vh;
+ 
+}
+
+.navBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100%;
+  width: 12vw;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navNamesWrapper {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.navNames ul {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+.navNames ul li a {
+  color: white !important;
+  
+}
+
+
+@media (max-width: 2000px) {
+  .btn {
+    padding: 11px 35px;
+
+  }
+}
+@media (max-width: 1440px) {
+  .navNames ul li a {
+    font-size: 18px;
+  }
+
+  .btn p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 11px 35px;
+  }
+  .navTopLeft {
+    gap: 22px;
+  }
+
+  .MainInfo {
+    font-size: 18px;
+  }
+
+  .infoName {
+    font-size: 14px;
+  }
+
+  .mediaIcon {
+    padding: 8px;
+  }
+  .mediaIcon2 {
+    padding: 11px 11px 8px 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navNames ul li a {
+    font-size: 18px;
+  }
+  .btn p {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 9px 29px;
+  }
+
+  .navNames ul {
+    gap: 2vw;
+  }
+
+  .MainInfo {
+    font-size: 16px;
+  }
+
+  .infoName {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .ham {
+    display: block;
+    font-size: 3vh;
+  }
+  .navNames ul li a {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .media {
+    display: none;
+  }
+  .contacts {
+    display: block !important;
+    font-size: 3vh;
+  }
+  .logo {
+    height: 100%;
+    width: 25vw;
+  }
+  #navbtn {
+    display: none;
+  }
+
+  nav{
+    height: 15vh;
+  }
+  .navTopLeft i {
+    font-size: 3vh;
+    color: #ffffff;
+}
+}
+
+
+
+.hammedia {
+
+  width: 100%;
+  /* height: 3rem; */
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0 ;
+}
+
+.MuiPaper-root {
+  background: linear-gradient(145deg, rgb(19, 35, 91), rgb(26, 58, 130));
+}
+
+.fa-facebook:hover{
+  color: lightskyblue;
+  transition: color 0.3s;
+  scale: 1.1;
+}
+.fa-linkedin:hover{
+  color: #0077b5;
+  transition: color 0.3s;
+  scale: 1.1;
+}
+.fa-instagram:hover{
+  color: #e1306c;
+  transition: color 0.3s;
+  scale: 1.1;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: #007BFF; /* Underline color */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

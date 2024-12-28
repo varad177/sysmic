@@ -1,0 +1,183 @@
+#wrapper{
+  padding: 4vw;
+  height: auto;
+}
+
+#services {
+  height: auto;
+  /* width: 100vw; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FCFCFC !important;
+  margin-top: 20px;
+}
+
+.splide {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 60vh;
+  padding: 3vw;
+
+}
+
+.servivesSmallHeading p {
+  font-size: 1.5em;
+  color: #202f64;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.servicesLargeHeading p {
+  font-size: 3vw;
+  text-align: center;
+  margin: 0;
+}
+
+.servicesLargeHeading span {
+  color: #e88f00;
+}
+
+#servicesSmallHeading p {
+  color: #918e8e !important;
+  font-weight: 500;
+}
+
+.slider {
+  padding:4vh;
+  background-color: #FCFCFC !important;
+
+}
+
+.serviceBox {
+  width: 78%;
+  padding: 2vw;
+  gap: 3vh;
+  /* height: 60vh; */
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+background-color: #FFFFFF !important;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+}
+
+.sliderWrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderLargrPara p {
+  font-size: 1.4vw;
+  margin: 0;
+  font-weight: 700;
+}
+
+.SliderSmallPara p {
+  font-size: 1.3vw;
+  margin: 0;
+  color: #717178;
+  font-weight: 500;
+}
+.slider_yellow_para p {
+  font-size: 1.3vw;
+  color: #efbf1a;
+  margin: 0;
+}
+
+.slidericon i {
+  font-size: 4vw;
+  color: #efbf1a;
+}
+
+
+@media (max-width : 1024px){
+  .slidericon i{
+    font-size: 6vw;
+  }
+
+  .sliderLargrPara p{
+    font-size: 2.4vw;
+  }
+
+  .SliderSmallPara p{
+    font-size: 1.7vw;
+  }
+
+  .slider_yellow_para p{
+    font-size: 1.7vw;
+  }
+
+  .serviceBox{
+    gap: 5vh;
+    height: auto;
+    
+  }
+
+}
+@media (max-width : 425px){
+  .serviceBox{
+    padding: 7vw;
+  }
+  .slidericon i{
+    font-size: 6vw;
+  }
+
+  .sliderLargrPara p{
+    font-size: 5.4vw;
+  }
+
+  .SliderSmallPara p{
+    font-size: 3.5vw;
+  }
+
+  .slider_yellow_para p{
+    font-size: 3.5vw;
+  }
+
+  .serviceBox{
+    gap: 7vh;
+  }
+
+  .servivesSmallHeading p{
+    font-size: 4.2vw;
+  }
+
+  .servicesLargeHeading p{
+    font-size: 5vw;
+  }
+  
+
+  .slider {
+    padding: 2vh 2.5vh;
+    background-color: #FCFCFC !important;
+}
+
+}
+@media (max-width : 400px){
+  
+  .slidericon i {
+    font-size: 14vw;
+}
+}
+@media (max-width : 320px){
+  
+ 
+.slider {
+  padding: 9vh 1.5vh;
+  background-color: #FCFCFC !important;
+}
+
+}
+
+.slider ul li{
+  width: 380px;
+}
